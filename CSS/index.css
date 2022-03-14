@@ -1,0 +1,395 @@
+
+*,
+*::after
+*::before
+ { margin: 0; padding: 0;
+    box-sizing: border-box;
+ }
+
+
+body{
+    background-color: black;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+#grilla{
+   
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main section section"
+    "footer footer footer";
+    grid-template-rows: 20% 1fr 10%;
+    grid-template-columns: 40% 30% auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    
+    
+}
+    header.navbar {
+        grid-area: header;
+    }
+    h1.magic__font{
+        grid-area: main;
+    }
+    section.content{
+        grid-area: section;
+    }
+    footer#pie__pag--linea{
+        grid-area: footer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    a.link__ig--color{
+        grid-area: footer;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+
+     
+.magic__font {
+    color: rgb(250, 140, 100);  
+    font-size: 150px;
+    font-family: 'Sassy Frass', cursive;
+    text-align: center;
+    font-weight: 100;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+   
+    
+    
+}
+.modern__font {
+    color: antiquewhite;
+    font-size: 130px;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 200;
+}
+
+.nav__main {
+    background-color: rgba(65, 6, 77, 0.37);        /*NAVEGADOR MAIN*/
+    overflow: hidden;
+    height: 50px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.link__main{                
+    display: inline;
+    font-size: 40px;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 200;
+}
+
+.link__main a {
+     text-decoration: none;
+     text-align: right;
+     color: rgb(248, 156, 123); 
+    
+ }
+
+ .content__text{
+    font-family: 'Arima Madurai', cursive;     
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: 10;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 200px;
+ }
+
+ 
+ #pie__pag--linea {
+               
+    
+                  font-size: 40px;                                  /*FOOTER MAIN*/
+                  font-family: 'Reenie Beanie', cursive;
+                  font-weight: bold;
+                  color: wheat
+ }
+
+.link__ig--color {
+                color: wheat;
+                font-size: 30px;
+                font-weight: bold;
+
+}
+
+
+ .nav__tarot {
+    background-color: rgba(65, 6, 77, 0.37);        /*NAVEGADOR TAROT*/
+    overflow: hidden;
+    height: 50px;
+    padding-top: 15px;
+    margin-bottom: 25px; }
+
+ .link__tarot {
+    display: inline;
+    font-size: 40px;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 200;
+
+ }
+
+ .link__tarot a {
+    text-decoration: none;
+    margin: 10px 40px 10px 120px;
+    text-align: right;
+    color:rgb(250, 140, 100);
+ }
+
+ .title__tarot{
+    width: 150px;
+    height: 150px;
+    margin: 50px 800px 5px 150px;
+    text-align: left;
+}
+.tarot__style{
+    color: rgb(250, 140, 100);  
+    font-size: 200px;
+    font-family: 'Reenie Beanie', cursive;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+ .tarot__fondo {
+           background-color: black;
+           background-size: 100%;
+            
+            
+ }
+
+ .text__tarot{
+    font-family: 'Arima Madurai', cursive;     /* PARRAFOS TAROT*/
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: 10;
+    width: 600px;
+    height: 10px;
+    margin: 150px 20px 50px 20px;
+}
+
+.arcano {
+    
+        width: 280px;
+        height: 500px;
+        margin: 1px 10px 200px 900px;
+}
+
+/*ASTROLOGIA*/
+
+#astro__grilla {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "picture picture picture"
+    "text text text"
+    "footer footer footer";
+    grid-template-rows: 10% 30% auto auto 10%;
+    grid-template-columns: 10% auto 10%;
+    row-gap: 10px;
+    column-gap: 10px;
+    height: 100vh;
+    margin: 0;
+}
+
+header.astro__navbar{
+grid-area: header;
+}
+
+div.astro__container{
+    grid-area: main;
+
+}
+picture.imagen__ciclo{
+    grid-area: picture;
+}
+section.content__astro{
+    grid-area: text;
+}
+
+
+
+.nav__astro {
+    background-color: rgba(65, 6, 77, 0.37);        /*NAVEGADOR ASTRO*/
+    overflow: hidden;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.link__astro{                
+    display: inline;
+    font-size: 40px;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 200;
+}
+
+.link__astro a {
+     text-decoration: none;
+     margin: 10px 40px 10px 120px;
+     text-align: right;
+     color: rgb(248, 156, 123); 
+     
+ }
+ 
+ .astro__fondo {
+            background-color: black;
+ }
+
+ .title__astro {
+    text-align: center;
+
+
+
+    
+ }
+ 
+ .astro__style {
+    color: rgb(250, 140, 100);  
+    font-size: 150px;
+    font-family: 'Reenie Beanie', cursive;
+    text-align: center;
+    font-weight: 100;
+ }
+
+ .ciclo__lunar {
+    width: 280px;
+    height: 500px;
+    margin: 10px 300px 20px 500px;
+}
+
+.astro__text {
+    font-family: 'Arima Madurai', cursive;     /* PARRAFOS TAROT*/
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: 10;
+    width: 800px;
+    height: 200px;
+    margin: 20px 20px 80px 250px;
+   text-align: center;
+}
+
+/* PLANTAS MEDICINALES*/
+
+.nav__plantas {
+    background-color: rgba(65, 6, 77, 0.37);        /*NAVEGADOR PLANTAS*/
+    overflow: hidden;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.link__plantas{                
+    display: inline;
+    font-size: 40px;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 200;
+}
+
+.link__plantas a {
+     text-decoration: none;
+     margin: 10px 40px 10px 120px;
+     text-align: right;
+     color: rgb(248, 156, 123); 
+}
+
+.video__plantas {
+                 width: 200px;
+                 height: 100px ;
+}
+
+.title__plantas{
+    width: 300px;
+    height: 300px;
+    margin: 60px 500px 5px 180px;
+    text-align: center
+ }
+ 
+ .plantas__style {
+    color: rgb(250, 140, 100);  
+    font-size: 130px;
+    font-family: 'Reenie Beanie', cursive;
+    text-align: left;
+    font-weight: 100;
+ }
+
+ .text__plantas{
+    font-family: 'Arima Madurai', cursive;     
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: 10;
+    width: 800px;
+    height: 200px;
+    margin: 20px 300px 80px 20px;
+   text-align: left;
+ }
+
+ /*CONTACTO*/
+
+ .nav__contact {
+    background-color: rgba(65, 6, 77, 0.37);        /*NAVEGADOR CONTACTO*/
+    overflow: hidden;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.link__contact{                
+    display: inline;
+    font-size: 40px;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 200;
+}
+
+.link__contact a {
+     text-decoration: none;
+     margin: 10px 40px 10px 120px;
+     text-align: right;
+     color: rgb(248, 156, 123); 
+     
+ }
+
+ .contact__fondo {
+    background-color: black;
+}
+
+.title__contact {
+width: 100px;
+height: 150px;
+margin: 50px 500px 5px 440px;
+text-align: center
+}
+
+.contact__style {
+color: rgb(250, 140, 100);  
+font-size: 150px;
+font-family: 'Reenie Beanie', cursive;
+text-align: center;
+font-weight: 100;
+}
+
+.contact__font {
+     font-size: 40px;                                  
+     font-family: 'Reenie Beanie', cursive;
+     font-weight: 100;
+     color: wheat;
+     width: 450px;
+     height: 60px;
+     margin: 5px 600px 5px 5px;
+     text-align: left;
+     
+     
+}
+
