@@ -1,38 +1,4 @@
-
-*{ margin: 0; padding: 0;
-    box-sizing: border-box;
- }
-
-body{
-    background-color: black;
-}
-
- header{
-    background-color: rgb(253, 166, 212);
- }
-
-.prueba__nav .prueba__menu {
-    display: flex;
-     justify-content: space-around;
-     align-items: center;
-     height: 80px;
-     flex-wrap: wrap;
-     list-style: none;
-}
-
-.prueba__link{
-     font-family: 'Courgette', cursive;
-     text-decoration: none;
-     color: black;
-     font-size: 30px;
-     transition: all 2s;
-    }
- .prueba__link:hover{
-    font-size: 40px;
-    color: rgb(224, 11, 118);
- }
-
- .grid__container{
+.grid__container{
      display: grid;
      grid-template-columns: 20% 60% 20%;
      grid-template-rows: 30% 30% 30% 10%;
@@ -203,11 +169,11 @@ footer a{
     width: 40px;
 }
 
+/*
+.carousel-inner > .item > img { margin: 0 auto; }
 
 
-
-
-/*ASTROLOGIA*/  
+/*ASTROLOGIA*/  /*
 
 #astro__grilla {
     display: grid;
@@ -291,7 +257,7 @@ section.content__astro{
 }
 
 .astro__text {
-    font-family: 'Arima Madurai', cursive;     /* PARRAFOS TAROT*/ 
+    font-family: 'Arima Madurai', cursive;     /* PARRAFOS TAROT*/ /*
     color: antiquewhite;
     font-size: 25px;
     font-weight: 10;
@@ -301,10 +267,10 @@ section.content__astro{
    text-align: center;
 }
 
-/* PLANTAS MEDICINALES*/ 
+/* PLANTAS MEDICINALES*/ /*
 
 .nav__plantas {
-    background-image: linear-gradient(to left, rgb(75, 11, 75), rgb(155, 90, 106));         
+    background-image: linear-gradient(to left, rgb(75, 11, 75), rgb(155, 90, 106));         /*NAVEGADOR PLANTAS*/ /*
     overflow: hidden;
     height: 50px;
     padding-top: 15px;
@@ -355,11 +321,10 @@ section.content__astro{
    text-align: left;
  }
 
- /*CONTACTO*/ 
+ /*CONTACTO*/ /*
 
- /*NAVEGADOR CONTACTO*/ 
  .nav__contact {
-    background-image: linear-gradient(to left, rgb(75, 11, 75), rgb(155, 90, 106));         
+    background-image: linear-gradient(to left, rgb(75, 11, 75), rgb(155, 90, 106));         /*NAVEGADOR CONTACTO*/ /*
     overflow: hidden;
     height: 50px;
     padding-top: 15px;
@@ -410,8 +375,4 @@ font-weight: 100;
      text-align: left;    
 }
 
-
-
-
-
-
+/*ESTILOS PRUEBA*/

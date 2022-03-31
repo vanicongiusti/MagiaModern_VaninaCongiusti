@@ -1,0 +1,27 @@
+footer{
+    grid-area: footer;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        a{
+            width: 40px;
+    }
+}
+   
+   
+.ig__logo{
+    width: 25px;
+    height: 25px;
+}
+   
+   
+.wtsp__logo{
+    width: 25px;
+    height: 25px;
+}
+   
+.fb__logo{
+    width: 25px;
+    height: 25px;
+}
